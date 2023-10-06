@@ -1,0 +1,55 @@
+Esse processo que nós acabamos de fazer se chama deploy. 
+O verbo deploy, em inglês, quer dizer implantar. 
+Em programação, seu sentido está diretamente relacionado à sua tradução literal: 
+fazer um deploy significa colocar no ar alguma aplicação que teve seu desenvolvimento concluído. 
+Quando um site é finalizado por um desenvolvedor e, após seus testes, 
+é finalmente hospedado e colocado no ar, ele passa pelo processo de deploy.
+
+Primeiramente, hospedamos o Alura Plus no Github Pages, 
+um serviço de hospedagem de site estático que usa arquivos HTML, 
+CSS e JavaScript diretamente de um repositório no GitHub e, 
+como opção, executa os arquivos por meio de um processo e publica um site. 
+Em seguida, fizemos deploy do Alura Plus pela Vercel, uma plataforma voltada 
+para a hospedagem gratuita de aplicações de uma forma bem simples e rápida. 
+Ela é conhecida por ser a empresa criadora do framework Next JS, voltado para o React.
+
+Caso você tenha interesse em conhecer mais sobre esse tipo de serviço 
+ou conhecer outros sites, vou recomendar o artigo 
+“Heroku, Vercel e outras opções de cloud como plataforma” do João Manoel.
+https://www.alura.com.br/artigos/heroku-vercel-outras-opcoes-cloud-plataforma?_gl=1*bwe59z*_ga*Mzc1NDMxODk0LjE2OTIyOTA5OTY.*_ga_1EPWSW3PCS*MTY5NjYwMDk4NS42LjEuMTY5NjYwNDI1NC4wLjAuMA..*_fplc*TFdLSG9UdkVmb20wbFAlMkJ4bXcxTEMyNWVleEtyRmhzT0ZpS281WktjNlgybHNoYXNzRzlnRXVRbUM4cWtReGRBN1RLajhWTDZCZVU3cDFzMW9HOXh6bzQ4UEcyY0gzNmVOc1l4SlU1SjZmMDJpUXo0eHlRclMza1BDUDRYSWclM0QlM0Q.
+
+
+Primeiramente, já que você construiu o repositório desse projeto, 
+que tal editar o arquivo README que foi criado junto com ele? 
+O README é um arquivo com extensão .md, ou seja, ele é escrito 
+em Markdown que é uma linguagem de marcação utilizada para 
+converter o texto em um HTML válido. A função desse arquivo 
+é apresentar informações do projeto, como:
+
+Descrição do seu projeto;
+Funcionalidades;
+Como os usuários podem utilizá-lo;
+Onde os usuários podem encontrar ajuda sobre seu projeto;
+Autores do projeto.
+
+Como escrever um README incrível no seu Github
+https://www.alura.com.br/artigos/escrever-bom-readme?_gl=1*1ey723a*_ga*Mzc1NDMxODk0LjE2OTIyOTA5OTY.*_ga_1EPWSW3PCS*MTY5NjYwMDk4NS42LjEuMTY5NjYwNTAzNS4wLjAuMA..*_fplc*TFdLSG9UdkVmb20wbFAlMkJ4bXcxTEMyNWVleEtyRmhzT0ZpS281WktjNlgybHNoYXNzRzlnRXVRbUM4cWtReGRBN1RLajhWTDZCZVU3cDFzMW9HOXh6bzQ4UEcyY0gzNmVOc1l4SlU1SjZmMDJpUXo0eHlRclMza1BDUDRYSWclM0QlM0Q.
+
+Também recomendo estudar mais sobre o Github. Esse tipo de site para compartilhamento de código é usado no dia a dia das empresas, pois os códigos são compartilhados entre vários membros dentro de uma equipe. Além disso, usa-se também a ferramenta de controle de versão chamada Git. Que tal desbravar esse conteúdo no curso “Git e Github: Controle e compartilhe seu código” do instrutor Vinicius Dias?
+
+Depois de tudo isso, partiu aprender uma linguagem de programação para evoluir nosso código estático? Geralmente usamos Javascript no front-end e a Alura tem diversos conteúdos para te auxiliar nisso! Que tal dar uma olhada nos cursos da formação JavaScript para front-end e quem sabe dar continuidade na Alura Plus no futuro.
+
+E por fim, nessa jornada, você vai se deparar com a escolha de ter seu primeiro pokemon… OPS! seu primeiro framework! E adivinha? A Alura também pode te ajudar com isso. Você pode encontrar conteúdos iniciais e intermediários de alguns frameworks e bibliotecas como:
+
+ReactJS
+Angular
+VueJS
+
+Nessa aula aprendemos:
+Criar uma conta no Github;
+Construir um repositório com o código do curso;
+Escrever commits;
+Fazer deploy no Github Pages e Vercel;
+Editar código no VSCode Web;
+Enviar alterações para o repositório já existente;
+Um pouco de responsividade.
