@@ -1,0 +1,35 @@
+AULA 02/03
+
+usar button quando ele for chamar uma função
+mas se for pra outra página ou section é bom usar âncora <a></a>
+Quando queremos que um evento aconteça a partir do clique do mouse, utilizamos os botões.
+
+AULA 07
+
+Nomes de classes no CSS
+https://www.alura.com.br/artigos/nomes-de-classes-no-css?_gl=1*1bor8du*_ga*Mzc1NDMxODk0LjE2OTIyOTA5OTY.*_ga_1EPWSW3PCS*MTY5NjUxMTg1OS4yLjEuMTY5NjUxOTcxNC4wLjAuMA..*_fplc*U0Q1eEN2ejVlJTJCb3ZiUyUyQjl0amhKeTBRSFVZNzhlTEhtSVVlOE9ZNXZBb1oxeFd5dHdzeWR0M05oVEdzTFBRWVNwQ2l5Y2gwejRYZ3ZnZU8zOVdZNkNhUFAxRCUyRk5jNE9tWFpDRURZdERra0IlMkJmNmN3N1lUOXBPaTRhR00lMkIzUSUzRCUzRA..
+
+Qual a diferença entre id e class?
+https://www.alura.com.br/artigos/qual-diferenca-entre-id-e-class?_gl=1*jdepy7*_ga*Mzc1NDMxODk0LjE2OTIyOTA5OTY.*_ga_1EPWSW3PCS*MTY5NjUxMTg1OS4yLjEuMTY5NjUxOTc2Ny4wLjAuMA..*_fplc*U0Q1eEN2ejVlJTJCb3ZiUyUyQjl0amhKeTBRSFVZNzhlTEhtSVVlOE9ZNXZBb1oxeFd5dHdzeWR0M05oVEdzTFBRWVNwQ2l5Y2gwejRYZ3ZnZU8zOVdZNkNhUFAxRCUyRk5jNE9tWFpDRURZdERra0IlMkJmNmN3N1lUOXBPaTRhR00lMkIzUSUzRCUzRA..
+
+Guia de Unidades no CSS
+https://www.alura.com.br/artigos/guia-de-unidades-no-css?_gl=1*e4z1ou*_ga*Mzc1NDMxODk0LjE2OTIyOTA5OTY.*_ga_1EPWSW3PCS*MTY5NjUxMTg1OS4yLjEuMTY5NjUxOTcwNy4wLjAuMA..*_fplc*U0Q1eEN2ejVlJTJCb3ZiUyUyQjl0amhKeTBRSFVZNzhlTEhtSVVlOE9ZNXZBb1oxeFd5dHdzeWR0M05oVEdzTFBRWVNwQ2l5Y2gwejRYZ3ZnZU8zOVdZNkNhUFAxRCUyRk5jNE9tWFpDRURZdERra0IlMkJmNmN3N1lUOXBPaTRhR00lMkIzUSUzRCUzRA..
+
+Criando Layouts com CSS Grid Layout
+https://www.alura.com.br/artigos/criando-layouts-com-css-grid-layout?_gl=1*8hpi1l*_ga*Mzc1NDMxODk0LjE2OTIyOTA5OTY.*_ga_1EPWSW3PCS*MTY5NjUxMTg1OS4yLjEuMTY5NjUxOTgzOC4wLjAuMA..*_fplc*U0Q1eEN2ejVlJTJCb3ZiUyUyQjl0amhKeTBRSFVZNzhlTEhtSVVlOE9ZNXZBb1oxeFd5dHdzeWR0M05oVEdzTFBRWVNwQ2l5Y2gwejRYZ3ZnZU8zOVdZNkNhUFAxRCUyRk5jNE9tWFpDRURZdERra0IlMkJmNmN3N1lUOXBPaTRhR00lMkIzUSUzRCUzRA..
+
+
+Nessa aula, você aprendeu:
+Criar botões na página e como escolher qual elemento para isso;
+Como nomear classes com o padrão BEM (block element modifier);
+A diferença entre <button> e <a>;
+Unidade de medida responsiva em;
+Display inline e block;
+Usar as propriedades CSS grid e grid-template-columns para dividir a tela;
+Conferir através da ferramenta do desenvolvedor no navegador (F12) os grids na tela;
+Detectar diferentes tipos de fontes e tamanhos de letras no Figma;
+Escolher fontes no fonts.google.com;
+Importar fontes externas no arquivo HTML;
+Usar variáveis CSS para armazenar valores além de cores como o nome da fonte;
+Aplicar a fonte importada nos elementos através do CSS e outros atributos relacionados: font-family, font-size, font-weight;
+Remover a decoração do texto de links através do text-decoration.

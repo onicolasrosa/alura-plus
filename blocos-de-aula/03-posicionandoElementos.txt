@@ -1,0 +1,10 @@
+Pare de chutar e aprenda como funciona o display: inline-block
+https://medium.com/collabcode/pare-de-chutar-e-aprenda-como-funciona-o-display-inline-block-4e6cba2f19d4
+
+Nessa aula, você aprendeu:
+Afastar elementos dos cantos da tela e de outros elementos;
+A diferença entre margin e padding;
+Diversas maneiras de determinar os valores e as direções das margens dentro da propriedade margin;
+Construir uma nova section;
+Reutilizar estilos através das classes dentro da nova section;
+Atribuir mais de uma classe nos elementos para incluir novas estilizações além das existentes.

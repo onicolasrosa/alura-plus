@@ -1,0 +1,129 @@
+https://github.com/alura-cursos/aluraplus
+
+AULA 03
+
+Em seguida vamos colocar <meta charset="UTF-8">. 
+E por fim vou colocar a viewport que também colocamos como metadado, 
+<meta name="viewport" content="width-device-width, initial-scale=1">. 
+Mas o que essas tags fazem? O title como diz o nome é título e esses meta são metadados. 
+Estamos enviando dados codificados que o navegador vai entender e vai projetar na tela.
+
+O charset UTF-8 é porque não temos como monitorar de onde o usuário está entrando no nosso site. 
+Então um dos principais é UTF-8, codificação de caracteres e ele vai aceitar todos os caracteres especiais, 
+como o cedilha e os acentos que temos e não tem em todas as outras línguas.
+
+E esse meta name viewport identifica qual é o tamanho da tela dos dispositivos que você está usando. 
+No content ele pega a largura do dispositivo e a escala inicial é 1. Só para ele entender se você está 
+acessando pelo celular ou se está acessando com uma tela gigante, um monitor gamer. 
+É isso que ele detecta para fazer a responsividade desse código.
+
+
+AULA 04
+
+Ele está com uma margem no topo, uma margem no lado esquerdo e não é isso que quero. 
+Quero que ele só tenha esses espaçamentos quando eu definir e não sozinho. 
+Para isso vou colocar no “styles.css”, * { margin: 0; padding: 0; } e vou salvar. 
+Olha, ele automaticamente na página ficou sem margem e sem nada. Sem padding também. 
+Não sei se tinha, mas já me certifiquei que não ia ter.
+
+E esse seletor de asterisco pega todos os elementos HTML, 
+ele seleciona todos eles e coloca um estilo que determinarmos ali. 
+Ele não vai tão a fundo quanto o root. Então ele pega só os elementos, 
+ele não define todo o arquivo CSS como o root.
+
+AULA 05
+
+Variáveis CSS facilitam o entendimento do uso das cores, a atribuição e manutenção.
+
+AULA 07
+
+Quando estamos inserindo uma imagem, é importante pensar: 
+essa imagem faz parte do conteúdo da página? 
+Se não, é possível colocá-la como background-image() de algum elemento.
+
+AULA 08
+
+artigo: https://www.alura.com.br/artigos/o-que-e-html-suas-tags-parte-1-estrutura-basica?_gl=1*hp1pa2*_ga*Mzc1NDMxODk0LjE2OTIyOTA5OTY.*_ga_1EPWSW3PCS*MTY5NjUxMTg1OS4yLjEuMTY5NjUxNjM4MC4wLjAuMA..*_fplc*U0Q1eEN2ejVlJTJCb3ZiUyUyQjl0amhKeTBRSFVZNzhlTEhtSVVlOE9ZNXZBb1oxeFd5dHdzeWR0M05oVEdzTFBRWVNwQ2l5Y2gwejRYZ3ZnZU8zOVdZNkNhUFAxRCUyRk5jNE9tWFpDRURZdERra0IlMkJmNmN3N1lUOXBPaTRhR00lMkIzUSUzRCUzRA..
+
+Tipos de tag
+As tags podem ser categorizadas inicialmente em dois tipos, em “nível de bloco” (block-level) e “em linha” (inline).
+Um elemento em nível de bloco ocupa toda a largura de seu elemento pai, que também chamamos de elemento container, 
+criando assim um “bloco”. Já os elementos inline, geralmente usamos para demarcação de conteúdos de texto.
+
+Estrutura básica
+O VS Code utiliza por padrão o Emmet Abbreviations, que traz o aparecimento automático de linhas 
+de código que fazem parte da estrutura básica do HTML ao digitar o ponto de exclamação. Dessa forma:
+
+!
+Resultado:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<!DOCTYPE html>
+Informa ao navegador que esse documento é do tipo HTML e sua versão. Quando está escrito apenas html, indica que é a mais recente...
+
+<html>
+Representa a raiz do documento, serve com um container que engloba todos os outros elementos HTML.
+
+<body>
+É onde fica todo o conteúdo de texto, imagem e vídeos, em que o usuário vê e interage, nele os conteúdos são estruturados pelas demais tags do HTML.
+
+<script>
+Esse elemento contém instruções de script ou aponta para um arquivo de script externo por meio do atributo src.
+
+<head>
+Compreende as informações do documento que serão interpretadas pelo navegador (metadados). Como por exemplo, título do documento, links para folhas de estilo etc.
+
+<meta>
+Define metadados, ou seja, informações sobre dados de um documento HTML. As <meta> tags vão dentro do elemento <head> e são usadas para especificar o conjunto de caracteres, o autor do documento, as configurações da janela de visualização etc.
+
+<link>
+É uma tag vazia, que contém apenas atributos e faz a relação do documento HTML com recursos externos, é comumente usado para vincular uma folha de estilo externa, também é usada para definir o favicon da página (ícone da aba do navegador), como outros recursos.
+
+<style>
+Essa tag é usada para declarar estilos (CSS) para um documento.
+
+Tags semânticas
+Tags semânticas são tags que possuem um significado, que dão sentido a 
+informação de texto ao navegador e buscadores, como por exemplo, utilizar 
+a tag <header> para cabeçalhos ou <article> para dar um significado de 
+artigo para aquele bloco de texto, até mesmo <p> para indicar que aquele 
+texto é um parágrafo, é uma boa prática tentar sempre utilizar essas tags 
+semânticas para ajudar no entendimento do código, além de ajudar muito no 
+SEO do site (Otimização para motores de busca, é o que ajuda o seu site a 
+se rankear melhor nos motores de buscas como o Google). 
+
+Segue abaixo a lista de tags semânticas citadas durante o artigo:
+
+<header>
+<main>
+<footer>
+<section>
+<article>
+<aside>
+<nav>
+<ol>
+<ul>
+<li>
+
+Tags sem semântica
+As tags que não possuem semântica não definem um significado para aquele texto, 
+normalmente são utilizadas apenas para fins de separação e estilização. 
+Veja logo abaixo a lista de algumas tags sem semântica:
+
+<div>
+<span>
+<b>
+<i>
+
+continua... ver links de outros artigos
+
+extensões: https://www.alura.com.br/artigos/extensoes-vs-code-descubra-as-mais-usadas?_gl=1*1j5alw8*_ga*Mzc1NDMxODk0LjE2OTIyOTA5OTY.*_ga_1EPWSW3PCS*MTY5NjUxMTg1OS4yLjEuMTY5NjUxNjc5Ni4wLjAuMA..*_fplc*U0Q1eEN2ejVlJTJCb3ZiUyUyQjl0amhKeTBRSFVZNzhlTEhtSVVlOE9ZNXZBb1oxeFd5dHdzeWR0M05oVEdzTFBRWVNwQ2l5Y2gwejRYZ3ZnZU8zOVdZNkNhUFAxRCUyRk5jNE9tWFpDRURZdERra0IlMkJmNmN3N1lUOXBPaTRhR00lMkIzUSUzRCUzRA..
